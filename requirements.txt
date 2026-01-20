@@ -1,0 +1,21 @@
+# FastAPI backend
+fastapi
+uvicorn
+
+# File upload & validation
+python-multipart
+pydantic
+
+# CORS support
+fastapi[all]
+
+# Machine Learning
+tensorflow
+numpy
+pillow
+
+# Database (SQLAlchemy)
+sqlalchemy
+
+# Environment variables
+python-dotenv
