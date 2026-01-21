@@ -85,7 +85,7 @@ const Shop = () => {
       const formData = new FormData();
       formData.append('file', blob, 'upload.jpg');
 
-      const response = await fetch('http://127.0.0.1:8000/predict', {
+      const response = await fetch('https://ai-based-smart-retail-system.onrender.com/predict', {
         method: 'POST',
         body: formData,
       });
