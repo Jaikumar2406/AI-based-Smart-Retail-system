@@ -4,8 +4,6 @@ uvicorn
 
 # File upload & validation
 python-multipart==0.0.9
-python==3.10.13
-
 pydantic
 
 # CORS support
