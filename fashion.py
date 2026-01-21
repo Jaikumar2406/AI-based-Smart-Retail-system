@@ -4,7 +4,7 @@ from tensorflow.keras.models import load_model
 from io import BytesIO
 from PIL import Image
 
-model = load_model("fashion.h5")
+odel = load_model("fashion.h5", compile=False)
 
 class_name = [
     'Angle boot', 'Bag', 'Coat', 'Dress', 'Pullover',
