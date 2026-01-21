@@ -1,12 +1,18 @@
-fastapi==0.128.0
-uvicorn==0.40.0
+fastapi==0.110.0
+uvicorn==0.29.0
 python-multipart==0.0.9
-pydantic==2.12.5
+pydantic==2.6.4
 
-tensorflow==2.20.0
-keras==3.13.1
+# TensorFlow (CPU, stable with Python 3.10)
+tensorflow-cpu==2.15.0
+keras==2.15.0
 
-numpy==2.4.1
-pillow
-sqlalchemy
-python-dotenv
+# ML & image processing
+numpy==1.26.4
+pillow==10.2.0
+
+# Database
+sqlalchemy==2.0.27
+
+# Environment variables
+python-dotenv==1.0.1
